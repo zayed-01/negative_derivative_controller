@@ -6,6 +6,7 @@
 Describe all the necessary variable and structure definition  for the 
 negative derivative controller
  */
+//this is for 300 Hz
 /* ************************************************************************** */
 
 #ifndef _NDF_CONTROLLER_H
