@@ -35,8 +35,8 @@ void INIT_PWM (void)
 
 void INIT_DACSPI (void)
  {
- mPORTBSetPinsDigitalOut(BIT_15 | BIT_11| BIT_7 ); // SCK||SDO||CS
-    PPSOutput(2,RPB11,SDO2); // pin 22
+ mPORTBSetPinsDigitalOut(BIT_15 | BIT_1| BIT_7 ); // SCK||SDO||CS
+    PPSOutput(2,RPB1,SDO2); // pin 5
     SPI2STATCLR = 0x40;
     SPI2CON = 0;
     char clr_Buf = SPI2BUF;
