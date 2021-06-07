@@ -133,11 +133,11 @@ void INIT_UART(void)
   // The RX pin must be one of the Group 2 input pins
   // RPA1, RPB1, RPB5, RPB8, RPB11
     
- PPSInput (2,U2RX,RPB5); //Assign U2RX to pin RPB5 --
+ PPSInput (2,U2RX,RPB5); //Assign U2RX to pin RPB5 -- PIN 14
   
   // The TX pin must be one of the Group 4 output pins
   // RPA3, RPB0, RPB9, RPB10, RPB14
-  PPSOutput(4,RPB10,U2TX); //Assign U2TX to pin RPB10 --
+  PPSOutput(4,RPB10,U2TX); //Assign U2TX to pin RPB10 -- PIN 21 
 
   UARTConfigure(UART2, UART_ENABLE_PINS_TX_RX_ONLY);
  // UARTSetFifoMode(UART2, UART_INTERRUPT_ON_TX_NOT_FULL | UART_INTERRUPT_ON_RX_NOT_EMPTY);
