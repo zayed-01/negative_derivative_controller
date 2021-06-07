@@ -113,7 +113,7 @@ void INIT_ADC_SPI (void)
   SPI1CON = 0x8E20;
 
   mPORTBSetPinsDigitalOut(BIT_4 | BIT_14); // cs||SCK
-  mPORTASetPinsDigitalIn(BIT_3);           // DRDY - pin12(PCB))
+  mPORTASetPinsDigitalIn(BIT_3);           // DRDY - PIN 10(BREAD),pin12(PCB))
   CS = 1;                    // initial CS state pin 11
  
  } 
