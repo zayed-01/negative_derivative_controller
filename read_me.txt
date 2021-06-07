@@ -38,7 +38,7 @@ Test 005 : Frequency response of the of the the controller : Get the data out ==
 
 Test 006 : Add Feedthrough 
 
-Test 007 : test the controller outside of the band pass range
+Test 007 : test the controller outside of the band pass range (done)
 
 **Same step would go for other controller. Same thing just different gain
 
